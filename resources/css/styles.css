@@ -1,10 +1,46 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Tea Cozy</title>
-    <meta charset="utf-8" />
-    <link href="/resources/css/styles.css" type="text/css" rel="stylesheet" />
-  </head>
-  <body>
-  </body>
-</html>
+body {
+font-family: Helvetica;
+font-size: 22px;
+color: seashell;
+background-color: black;
+opacity: 0.9;
+text-align: center;
+}
+
+.header-container {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  position: fixed;
+  display: flex;
+}
+
+.header-box {
+  display: flex;
+}
+
+#header-left {
+justify-content: flex-start;
+align-items: center;
+}
+
+#header-right {
+  width: 100%;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.logo-image {
+margin-left: 10px;
+height: 50px;
+}
+
+#header-right span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.navitem {
+color: seashell;
+text-decoration: underline;
+}
